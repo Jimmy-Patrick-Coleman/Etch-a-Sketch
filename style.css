@@ -1,0 +1,128 @@
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: auto;
+    border: 10px solid pink;
+}
+.divOne {
+    border: 1px solid blue;
+    padding: 60px;
+}
+.divTwo {
+    border: 1px solid yellow;
+    padding: 60px;
+
+}
+.divThree {
+    border: 1px solid green;
+    padding: 60px;
+}
+.divFour {
+    border: 1px solid red;
+    padding: 60px;
+}
+.divFive {
+    border: 1px solid orange;
+    padding: 60px;
+}
+.divSix {
+    border: 1px solid dodgerblue;
+    padding: 60px;
+}
+.divSeven {
+    border: 1px solid lime;
+    padding: 60px;
+}
+.divEight {
+    border: 1px solid brown;
+    padding: 60px;
+}
+.divNine {
+    border: 1px solid skyblue;
+    padding: 60px;
+}
+.divTen {
+    border: 1px solid purple;
+    padding: 60px;
+}
+.divEleven {
+    border: 1px solid limegreen;
+    padding: 60px;
+}
+.divTwelve {
+    border: 1px solid violet;
+    padding: 60px;
+}
+.divThirteen{
+    border: 1px solid coral;
+    padding: 60px;
+}
+.divFourteen {
+    border: 1px solid crimson;
+    padding: 60px;
+}
+.divFifteen{
+    border: 1px solid blueviolet;
+    padding: 60px;
+}
+.divSixteen {
+    border: 1px solid olivedrab;
+    padding: 60px;
+}
+
+
+.divOne:hover {
+background-color: blue;
+}
+.divTwo:hover {
+    background-color:yellow;
+
+
+}
+.divThree:hover {
+    background-color:  green;
+}
+.divFour:hover {
+    background-color:red;
+}
+.divFive:hover {
+    background-color: orange;
+}
+.divSix:hover {
+    background-color:dodgerblue;
+
+}
+.divSeven:hover {
+    background-color: lime;
+}
+.divEight:hover {
+    background-color: brown;
+}
+.divNine:hover {
+    background-color: skyblue;
+
+}
+.divTen:hover {
+    background-color: purple;
+
+}
+.divEleven:hover {
+    background-color:limegreen;
+
+}
+.divTwelve:hover {
+    background-color: violet;
+}
+.divThirteen:hover {
+    background-color:coral;
+}
+.divFourteen:hover {
+    background-color:crimson;
+}
+.divFifteen:hover {
+    background-color:blueviolet;
+
+}
+.divSixteen:hover {
+    background-color: olivedrab;
+}
