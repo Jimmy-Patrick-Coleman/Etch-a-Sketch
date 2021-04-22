@@ -23,12 +23,22 @@
 }
 .creationButton {
     border: 10px solid black;
-    padding: 20px;
+    padding: 10px;
     background-color: white;
 }
 .resetButton {
     border: 10px solid black;
-    padding: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.rainbowButton {
+    border: 10px solid black;
+    padding: 10px;
+    background-color: white;
+}
+.blackButton {
+    border: 10px solid black;
+    padding: 10px;
     background-color: white;
 }
 #grid-div {
