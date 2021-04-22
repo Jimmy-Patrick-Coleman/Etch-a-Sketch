@@ -23,19 +23,16 @@ for (let i = 0; i < (col * row); i++) {
 function changeColor() {
     const divs = grid.querySelectorAll('.div')
     divs.forEach(div => div.addEventListener('mouseover', () => {
-        div.style.cssText = 'background: red';
+        div.setAttribute('style', 'background: black');
     }))
 }
-
-
-
 function resetFunc() {
     location.reload(); 
 }
 
 
 resetButton.addEventListener('click', () => {
-    inCaseOfMissclick = prompt('Are you sure you want to reset the grid', 'no');
+    inCaseOfMissclick = prompt('Are you sure you want to reset the grid', 'yes or no');
     answer = inCaseOfMissclick.toLowerCase();
     if (answer === 'yes') {
         resetFunc();

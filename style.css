@@ -12,6 +12,8 @@
     background-color: red;
 }
 #footer {
+    border: 1px solid black;
+    background-color: blueviolet;
     padding: 5px;
 }
 #button-div {
