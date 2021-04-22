@@ -1,15 +1,19 @@
 #grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    display: flex;
+    flex-direction: column;
     border: 1px solid pink;
-    width: 256px;
-    height: 256px;
+    height: 500px;
+    width: 500px;
 }
-.div {
-    width: auto;
-    height: auto;
-    border: 1px solid blue;
-} 
-.div:hover {
-    background-color: olivedrab;
+.column {
+    display: flex;
+    background: #000;
+    width: 50vw;
+    height: 50vw;
+}
+.row {
+    display: flex;
+    background: #000;
+    width: 50vw;
+    height: 50vw;
 }

@@ -1,0 +1,99 @@
+                                       NUMBER 4
+                           HTML
+          
+
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="header">
+          <h1>Etch A Sketch</h1>
+        </header>
+        <main>
+          <section id="section">
+          <div id="button-div">
+          </div>
+          <div id="grid-container">
+
+          </div>
+          </section>
+
+        </main>
+        <footer>
+          <div id="empty-div">
+
+          </div>
+        <script src="script.js">
+
+        </script>
+        </footer>
+    </body>
+</html>
+
+
+                JAVASCRIPT
+const gridContainer = document.querySelector('#grid-container');
+const buttonContainer = document.querySelector('#button-div');
+const buttonBlue = document.createElement('button');
+
+
+function createGridDivs(col, row) {
+    for (let i = 0; i < (col * row); i++) {
+        const div = document.createElement('div')
+        div.classList.add('div')
+    gridContainer.style.gridTemplateColumns = `repeat(${col} ifr)`;
+    gridContainer.style.gridTemplateRows = `repeat(${row} ifr)`;
+    gridContainer.appendChild(div);
+    }
+}
+createGridDivs(16, 16)
+
+
+
+function changeToBlue(){
+const divs = gridContainer.querySelectorAll('.div'); 
+buttonBlue.textContent = 'blueify';
+buttonBlue.addEventListener('click' , () => {
+    divs.forEach(div => div.addEventListener('mouseover', () => {
+        div.style.cssText = 'background: red';
+    }))
+})
+buttonContainer.appendChild(buttonBlue).classList.add('btn')
+}
+
+changeToBlue();
+
+
+/*
+
+const resizeButton = document.querySelector('#resizeButton');
+resizeButton.addEventListener('click', function() {
+   
+    col = gridSize();
+    row = col;
+    removeGrid();
+    createGridDivs(col, row)
+})
+
+
+
+
+function gridSize() {
+    let size = prompt('please enter a number', '10');
+    let number = 0;
+    number += size;
+    console.log(number, 'number');
+    return number;
+}
+
+function removeGrid() {
+    for (let i = 0; i < (col * row); i++) {
+    gridContainer.removeChild(div);
+    }
+}
+
+*/
+
+NUMBER 5
