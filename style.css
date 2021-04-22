@@ -1,9 +1,50 @@
+#body {
+    background-color: red;
+}
+#header {
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+#main {
+    background-color: red;
+}
+#footer {
+    padding: 5px;
+}
+#button-div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.creationButton {
+    border: 10px solid black;
+    padding: 20px;
+    background-color: white;
+}
+.resetButton {
+    border: 10px solid black;
+    padding: 20px;
+    background-color: white;
+}
+#grid-div {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#button-container {
+    border: 1px solid black;
+}
 #grid-container {
     border: 1px solid black;
     display: grid;
     align-items: center;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
 
 }
 .div {
