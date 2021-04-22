@@ -1,0 +1,29 @@
+I decided it would be fun to add a walkthrough of my trails and errors.
+This wont be a walkthrough on how it was made but the events that transpired.
+
+                     BEWARE THE TERRIBLE SPELLING
+    also i am too tired to fix the weid text as i dont like using the vscode text editor for these txt files
+so four days ago i started the project i know its said it would be hard and that you will have to look things up
+but mannnn.
+
+anyway so i start and think okay so i just and 16 divs through java not in html and follow some instructions so i make sixteen divs.
+then i realise wait thats not it so i make a function that makes sixteen divs and adds them to a grid.
+
+im still a  beginer and have no clue what an etch a sketch is i think one appered in a tv show i watched t dsome point.
+so im going crazy trying to figure this out.
+then im like maybe its there are youtube videos out there that brake it down.
+
+so i watch one and the dudeds like bawm poh zap and all this code i haver never even seen is flying evrywhere with no explanation
+ as to who hat why or even how is gamora
+then i found a second video and this guy atleast explained what he was doing. some of the whys quickly came with it but im still way out of my depth and its late.
+ so i scarpped my work and decided to start fesh.
+
+ i had college the next two days i think life has all blared toghether as of late. 
+ what i do know is that for two days when i got home i became one with my chair
+
+today i have some time though and i rewatched some videos explaing the hows and whys.
+ i even found a webpage about the project and someone attemptds at it that if ound helpful.
+ i looked at stack overflow which was cool
+but i didnt want to copy their work looking it up is more about understanding why and since i got that i had alll in needed to get to work.
+
+so yeah i thinks its working i will add some extrs later.
