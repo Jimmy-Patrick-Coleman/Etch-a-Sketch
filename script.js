@@ -1,3 +1,8 @@
+const buttonContainer = document.querySelector('#button-container')
+const resetButton = document.createElement('button');
+resetButton.textContent = 'reset';
+resetButton.classList.add('resetButton');
+
 const grid = document.querySelector('#grid-container');
  
 function makeGrid(col, row) {
@@ -9,14 +14,10 @@ for (let i = 0; i < (col * row); i++) {
     grid.appendChild(div);
 }
 }
-makeGrid(10, 10);
+
 
 function changeColor() {
-
     const divs = grid.querySelectorAll('.div')
-
-   
-
     divs.forEach(div => div.addEventListener('mouseover', () => {
         div.style.cssText = 'background: red';
     }))
@@ -24,4 +25,21 @@ function changeColor() {
 
 
 
-changeColor();
+function resizeGrid() {
+
+}
+
+
+resetButton.addEventListener('click', () => {
+    sizeInput = prompt('what size grid would you like', 16);
+    if (sizeInput > 100) {
+        sizeInput = prompt('please enter a number less than 100', 16)
+    } else if (sizeInput === null) {
+        makeGrid(16, 16);
+        changeColor();
+    } else {
+        makeGrid(sizeInput, sizeInput);
+        changeColor();
+    }
+});
+buttonContainer.appendChild(resetButton);

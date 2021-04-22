@@ -1,5 +1,5 @@
 #grid-container {
-    border: 1px solid pink;
+    border: 1px solid black;
     display: grid;
     align-items: center;
     height: 600px;
@@ -7,8 +7,7 @@
 
 }
 .div {
-    border: 1px solid red;
+    border: 1px solid black;
     height: 100%;
-    width: auto;
-    
+    width: auto; 
 }
