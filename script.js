@@ -1,6 +1,10 @@
 const buttonContainer = document.querySelector('#button-container')
+const creationButton = document.createElement('button');
+creationButton.textContent = 'Create a grid';
+creationButton.classList.add('creationButton');
+
 const resetButton = document.createElement('button');
-resetButton.textContent = 'reset';
+resetButton.textContent = 'reset the grid';
 resetButton.classList.add('resetButton');
 
 const grid = document.querySelector('#grid-container');
@@ -25,21 +29,32 @@ function changeColor() {
 
 
 
-function resizeGrid() {
-
+function resetFunc() {
+    location.reload(); 
 }
 
 
 resetButton.addEventListener('click', () => {
+    inCaseOfMissclick = prompt('Are you sure you want to reset the grid', 'no');
+    answer = inCaseOfMissclick.toLowerCase();
+    if (answer === 'yes') {
+        resetFunc();
+    }
+});
+buttonContainer.appendChild(resetButton);
+
+creationButton.addEventListener('click', () => {
     sizeInput = prompt('what size grid would you like', 16);
+    a = sizeInput;
+    b = a;
     if (sizeInput > 100) {
         sizeInput = prompt('please enter a number less than 100', 16)
     } else if (sizeInput === null) {
         makeGrid(16, 16);
         changeColor();
     } else {
-        makeGrid(sizeInput, sizeInput);
+        makeGrid(a, b);
         changeColor();
     }
 });
-buttonContainer.appendChild(resetButton);
+buttonContainer.appendChild(creationButton);
