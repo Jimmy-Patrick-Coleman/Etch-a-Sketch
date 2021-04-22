@@ -114,11 +114,18 @@ function makeBlue() {
 const divs = gridContainer.querySelectorAll('.div');
 blueBtn.textContent = 'blue';
 blueBtn.addEventListener('click', () => {
-  divs.forEach(div => div.addEventListener('mouseover', () => {
-    div.setAttribute('style', 'color: blue; background: white'); 
-}))
+  
 
 })
 buttonContainer.appendChild(blueBtn);
 }
 makeBlue();
+
+
+  /* divs.addEventListener('mouseover', () => {
+       divs.forEach((div) => {
+div.setAttribute('style', 'background:black'); 
+       })
+   }) 
+
+*/

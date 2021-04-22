@@ -10,3 +10,18 @@ for (let i = 0; i < (col * row); i++) {
 }
 }
 makeGrid(10, 10);
+
+function changeColor() {
+
+    const divs = grid.querySelectorAll('.div')
+
+   
+
+    divs.forEach(div => div.addEventListener('mouseover', () => {
+        div.style.cssText = 'background: red';
+    }))
+}
+
+
+
+changeColor();
