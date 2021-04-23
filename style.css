@@ -1,5 +1,5 @@
 #body {
-    background-color: red;
+    background-color: blueviolet;
 }
 #header {
     border: 1px solid black;
@@ -57,7 +57,6 @@
     align-items: center;
     height: 500px;
     width: 500px;
-
 }
 .div {
     border: 1px solid black;

@@ -41,7 +41,7 @@ function makeBoxesARainbow() {
 function makeBoxesBlack() {
     const divs = grid.querySelectorAll('.div')
     divs.forEach(div => div.addEventListener('mouseover', () => {
-          div.style.backgroundColor = "black";
+          div.style.backgroundColor = "#36454F";
     }))
 }
 
